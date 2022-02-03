@@ -1,2 +1,2 @@
-# spidreading
+# speedreading
 Speed reading web app
