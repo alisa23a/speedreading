@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="speedreading.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="speedreading.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Speed Reading</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+
+
+        </div>
+        <form action="" id="form">
+            <div id="txtar">
+                <textarea id="textarea"></textarea>
+            </div>
+            <div id="clearbut">
+                <button type="button" id="clearit">Очистить</button>
+            </div>
+
+            <div id="controls">
+                <div id="nightmode">
+                    <div id="isun">
+                        <i class="fa fa-sun-o" aria-hidden="true"></i>
+                    </div>
+                    <div id="sw">
+                        <label class="switch">
+                            <input type="checkbox" id="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div id="imoon">
+                        <i class="fa fa-moon-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div id="speed">
+                    <input id="rng" name="rng" type="range" min="100" max="1000" value="700">
+                    <output id="ong" for="rng">700</output>                    
+                </div>
+                <div id="fonts">
+                    <input id="rng2" name="rng2" type="range" min="2" max="5" value="3">
+                    <output id="ong2" for="rng2">3</output>
+                </div>
+            </div>
+
+
+            <div id="tab">
+                <div id="trow">
+                    <div id="disp">Текст
+                    </div>  
+                </div>
+            </div>
+            <div id="startbut">
+                <button type="button" id="start">Старт</button>
+            </div>
+            <div id="stopbut">
+                <button type="button" id="stop">Стоп</button>
+            </div>
+                   
+        </form>
+        <div id="cr">by alisabadass</div>
+
+
+    </div>
+    
+</body>
+</html>
